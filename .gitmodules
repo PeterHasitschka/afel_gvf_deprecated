@@ -1,0 +1,3 @@
+[submodule "gvf"]
+	path = gvf
+	url = git@github.com:PeterHasitschka/gvf.git

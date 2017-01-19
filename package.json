@@ -1,0 +1,20 @@
+{
+  "name": "gvf",
+  "version": "0.0.2",
+  "scripts": {
+    "start": "ntsc && concurrently \"npm run ntsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "ntsc": "ntsc",
+    "ntsc:w": "ntsc -w",
+    "typings": "typings"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}
+
